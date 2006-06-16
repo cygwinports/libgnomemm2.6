@@ -1,0 +1,5 @@
+category: Gnome
+requires: cygwin glib2-devel glibmm24-devel gtkmm24-devel libgnome2-devel libsigc++20-devel
+external-source: libgnomemm26
+sdesc: "C++ bindings for libgnome-2 (development)"
+ldesc: "Official C++ bindings for libgnome-2"

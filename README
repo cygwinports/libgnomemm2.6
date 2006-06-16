@@ -1,0 +1,99 @@
+libgnomemm26
+-------------------------------------------
+Official C++ bindings for libgnome-2.0.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  glib2-2.8.6-1
+  glibmm24-2.8.6-1
+  gtkmm24-2.8.5-1
+  libgnome2-2.12.0.1-1
+  libsigc++20-2.0.17-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.90-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  gcc-g++-3.4.4-1
+  m4-1.4.4-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://www.gtkmm.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/libgnomemm/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libgnomemm26-2.14.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libgnomemm26-2.14.0-1.sh all
+
+This will create:
+  /usr/src/libgnomemm26-2.14.0-1-src.tar.bz2
+  /usr/src/libgnomemm26-2.14.0-1.tar.bz2
+  /usr/src/libgnomemm26-devel-2.14.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/bin/cyggnomemm-2.6-1.dll
+  /usr/share/doc/Cygwin/libgnomemm26-2.14.0.README
+  /usr/share/doc/libgnomemm26-2.14.0/AUTHORS
+  /usr/share/doc/libgnomemm26-2.14.0/ChangeLog
+  /usr/share/doc/libgnomemm26-2.14.0/COPYING
+  /usr/share/doc/libgnomemm26-2.14.0/INSTALL
+  /usr/share/doc/libgnomemm26-2.14.0/NEWS
+  /usr/share/doc/libgnomemm26-2.14.0/README
+  /usr/share/doc/libgnomemm26-2.14.0/TODO
+
+Files included in the devel package:
+
+  /usr/include/libgnomemm-2.6/libgnomemm/init.h
+  /usr/include/libgnomemm-2.6/libgnomemm/main.h
+  /usr/include/libgnomemm-2.6/libgnomemm/moduleinfo.h
+  /usr/include/libgnomemm-2.6/libgnomemm/private/main_p.h
+  /usr/include/libgnomemm-2.6/libgnomemm/private/moduleinfo_p.h
+  /usr/include/libgnomemm-2.6/libgnomemm/private/program_p.h
+  /usr/include/libgnomemm-2.6/libgnomemm/program.h
+  /usr/include/libgnomemm-2.6/libgnomemm/wrap_init.h
+  /usr/include/libgnomemm-2.6/libgnomemm.h
+  /usr/lib/libgnomemm-2.6/include/libgnomemmconfig.h
+  /usr/lib/libgnomemm-2.6/proc/m4/convert.m4
+  /usr/lib/libgnomemm-2.6/proc/m4/convert_libgnomemm.m4
+  /usr/lib/libgnomemm-2.6.dll.a
+  /usr/lib/libgnomemm-2.6.la
+  /usr/lib/pkgconfig/libgnomemm-2.6.pc
+
+--------------------
+
+Port Notes:
+
+----- version 2.14.0-1 -----
+Version bump.
+
+----- version 2.12.1-1 -----
+Version bump.
+Broke out separate -devel package.
+
+----- version 2.10.0-1 -----
+Update for GNOME 2.10, built with gcc-3.4.
+
+----- version 2.8.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
