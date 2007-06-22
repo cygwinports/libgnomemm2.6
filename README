@@ -3,27 +3,27 @@ libgnomemm26
 Official C++ bindings for libgnome-2.0.
 
 Runtime requirements:
-  cygwin-1.5.21-2
-  glib2-2.12.4-1
-  glibmm24-2.12.2-1
-  gtkmm24-2.10.3-1
+  cygwin-1.5.24-2
+  glib2-2.12.12-1
+  glibmm24-2.12.9-1
+  gtkmm24-2.10.9-1
   libgnome2-2.16.0-1
   libsigc++20-2.0.17-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.21-2
-  autoconf2.5-2.60-1
-  automake1.9-1.9.6-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  gcc-g++-3.4.4-1
-  m4-1.4.7-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  m4-1.4.9-1
   make-3.81-1
   pkg-config-0.21-1
-  sed-4.1.5-1
+  sed-4.1.5-2
 
 Canonical homepage:
   http://www.gtkmm.org/
@@ -34,30 +34,30 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomemm26-2.16.0-1-src.tar.bz2
+  unpack libgnomemm26-2.18.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomemm26-2.16.0-1.cygport all
+  cygport ./libgnomemm26-2.18.0-1.cygport all
 
 This will create:
-  /usr/src/libgnomemm26-2.16.0-1-src.tar.bz2
-  /usr/src/libgnomemm26-2.16.0-1.tar.bz2
-  /usr/src/libgnomemm26-devel-2.16.0-1.tar.bz2
+  /usr/src/libgnomemm26-2.18.0-1-src.tar.bz2
+  /usr/src/libgnomemm26-2.18.0-1.tar.bz2
+  /usr/src/libgnomemm26-devel-2.18.0-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
   /usr/bin/cyggnomemm-2.6-1.dll
-  /usr/share/doc/Cygwin/libgnomemm26-2.16.0.README
-  /usr/share/doc/libgnomemm26-2.16.0/AUTHORS
-  /usr/share/doc/libgnomemm26-2.16.0/ChangeLog
-  /usr/share/doc/libgnomemm26-2.16.0/COPYING
-  /usr/share/doc/libgnomemm26-2.16.0/INSTALL
-  /usr/share/doc/libgnomemm26-2.16.0/NEWS
-  /usr/share/doc/libgnomemm26-2.16.0/README
-  /usr/share/doc/libgnomemm26-2.16.0/TODO
+  /usr/share/doc/Cygwin/libgnomemm26-2.18.0.README
+  /usr/share/doc/libgnomemm26-2.18.0/AUTHORS
+  /usr/share/doc/libgnomemm26-2.18.0/ChangeLog
+  /usr/share/doc/libgnomemm26-2.18.0/COPYING
+  /usr/share/doc/libgnomemm26-2.18.0/INSTALL
+  /usr/share/doc/libgnomemm26-2.18.0/NEWS
+  /usr/share/doc/libgnomemm26-2.18.0/README
+  /usr/share/doc/libgnomemm26-2.18.0/TODO
 
 Files included in the devel package:
 
@@ -80,6 +80,9 @@ Files included in the devel package:
 --------------------
 
 Port Notes:
+
+----- version 2.18.0-1 -----
+Version bump for GNOME 2.18.
 
 ----- version 2.16.0-1 -----
 Version bump for GNOME 2.16.
