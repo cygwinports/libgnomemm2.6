@@ -1,0 +1,5 @@
+category: Gnome
+requires: cygwin libglib2.0_0 libglibmm2.4_1 libgtkmm2.4_1 libgnome2_0 libsigc2.0_0
+external-source: libgnomemm2.6
+sdesc: "C++ bindings for libgnome-2 (runtime)"
+ldesc: "Official C++ bindings for libgnome-2"

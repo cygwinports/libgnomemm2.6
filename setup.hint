@@ -1,4 +1,0 @@
-category: Gnome
-requires: cygwin glib2 glibmm24 gtkmm24 libgnome2 libsigc++20
-sdesc: "C++ bindings for libgnome-2 (runtime)"
-ldesc: "Official C++ bindings for libgnome-2"
