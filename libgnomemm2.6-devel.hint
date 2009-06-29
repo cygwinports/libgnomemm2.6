@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgnomemm2.6_1 libglib2.0-devel libglibmm2.4-devel libgtkmm2.4-devel libgnome2-devel libsigc2.0-devel libstdc++6-devel
+requires: libgnomemm2.6_1 libglib2.0-devel libglibmm2.4-devel libgtkmm2.4-devel libgnome2-devel libsigc2.0-devel libstdc++6-devel
 external-source: libgnomemm2.6
 sdesc: "C++ bindings for libgnome-2 (development)"
 ldesc: "Official C++ bindings for libgnome-2"
