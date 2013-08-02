@@ -1,0 +1,12 @@
+inherit gtkmm
+
+NAME="libgnomemm2.6"
+VERSION=2.28.0
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="C++ bindings for libgnome2"
+DESCRIPTION="Official GTKmm C++ bindings for libgnome-2"
+
+PKG_NAMES="${NAME}_1 ${NAME}-devel"
+libgnomemm2_6_1_CONTENTS='usr/bin/*-2.6-1.dll usr/share/doc/'
+libgnomemm2_6_devel_CONTENTS='usr/include/ usr/lib/'
